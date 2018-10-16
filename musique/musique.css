@@ -1,0 +1,47 @@
+#main_content{
+	display: block;
+}
+
+#video_container {
+    width:auto;
+    border:2px solid #888888;
+    position:relative;
+    text-align:center;
+}
+
+#overlay {
+    position:fixed;
+    top:0;
+    left:0;
+     z-index:1;
+    height:100%;
+    width:100%;
+    background:#ffffff;
+    opacity:0.6;
+    display:none;    
+}
+
+#video {
+display:none;
+position: absolute;
+top:15%;
+left:30px;
+z-index:2;
+}
+
+ol{
+	padding: 0px;
+}
+
+li{
+	list-style-position: inside;
+}
+
+h2{
+	font-family: Viola;
+}
+
+
+footer{
+	display:block;
+}
