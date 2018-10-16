@@ -22,11 +22,12 @@
 }
 
 #video {
-display:none;
-position: absolute;
-top:15%;
-left:30px;
-z-index:2;
+	color: black;
+	display:none;
+	position: absolute;
+	top:15%;
+	left:30px;
+	z-index:2;
 }
 
 ol{
