@@ -5,5 +5,5 @@ function hideLogo(){
 }
 
 $(document).ready(function(){
-	$("article").hide().delay(200).fadeIn(2000);
+	$("article").hide().delay(200).fadeIn(1300);
 });
