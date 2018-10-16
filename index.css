@@ -28,15 +28,13 @@ body{
 #header{
 	text-align: justify;
 	width: 100%;
+	height: 100px;
 }
 
  #header:after{
     content: '';
     display: inline-block;
     width: 100%;
-    height: 0;
-    font-size:0;
-    line-height:0;
 }
 
 h1{
@@ -96,5 +94,11 @@ footer {
 
 #axel{
 	margin-left: 2%;
+	opacity: 0.8;
+	transition: opacity 1.5s ease;
+	-webkit-transition: opacity 1.5s ease;
 }
 
+#axel:hover{
+	opacity: 1;
+}
