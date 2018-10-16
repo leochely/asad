@@ -6,3 +6,6 @@ footer{
 	display:block;
 }
 	
+article{
+	visibility: hidden;
+}
