@@ -84,9 +84,17 @@ url("font/Viola.woff") format("woff"),
 url("font/Viola.otf") format("opentype");
 }
 
-footer{
-	margin-top: 30px;
-	display: none;
-	text-align: right;
+footer {
+	display:none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: right;
+}
+
+#axel{
+	margin-left: 2%;
 }
 

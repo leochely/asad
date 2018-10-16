@@ -7,5 +7,5 @@ footer{
 }
 	
 article{
-	visibility: hidden;
+		display: block;
 }
