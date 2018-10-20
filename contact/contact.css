@@ -1,4 +1,4 @@
-#main_content{
+#wrapper{
 	display: block;
 }
 
@@ -107,9 +107,4 @@ fieldset {
 
 :-ms-input-placeholder {
   color: #888;
-}
-
-
-footer{
-	display:block;
 }

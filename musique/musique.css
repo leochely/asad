@@ -1,4 +1,4 @@
-#main_content{
+#wrapper{
 	display: block;
 }
 
@@ -41,9 +41,4 @@ li{
 
 h2{
 	font-family: Viola;
-}
-
-
-footer{
-	display:block;
 }

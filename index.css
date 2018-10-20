@@ -1,6 +1,14 @@
-body{
+html, body{
 	background-color: black;
+	position: relative;
 	font-family: Arial;
+	height: 100%;
+}
+
+#wrapper{	
+	display: none;
+   min-height:100%;
+   position:relative;
 }
 
 #logo_container{
@@ -21,8 +29,8 @@ body{
 }
 
 #main_content{
-	display: none;
 	color: white;
+	padding-bottom: 100px;
 }
 
 #header{
@@ -86,10 +94,17 @@ url("font/Viola.woff") format("woff"),
 url("font/Viola.otf") format("opentype");
 }
 
+.body {
+   padding-bottom:100px;   /* Height of the footer */
+}
+
+
 footer {
 	position: absolute;
+	height: 50px;
+	width: 100%;
 	right: 5px;
-	bottom: 5px;
+	bottom: 0px;
 	text-align: right;
 }
 
