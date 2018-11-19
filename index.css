@@ -45,16 +45,12 @@ html, body{
     width: 100%;
 }
 
-#intro{
-    heigh: 100%;
-}
-
 h1{
 	margin-left: 20px;
 	font-family: Viola;
 	display: inline-block;
 	font-size: 3em;
-	opacity: 0.6;
+	opacity: 0.7;
 	transition: opacity 1.5s ease;
 	-webkit-transition: opacity 1.5s ease;
 }
@@ -108,10 +104,12 @@ footer {
 	text-align: right;
 }
 
-#axel:hover{
-	opacity: 1;
+#intro{
+	display: flex;
+	width: auto;
 }
 
-#intro{
-	display: inline-block;
+#countdown{
+	font-size: 5em;
+	margin: auto;
 }

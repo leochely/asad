@@ -28,20 +28,34 @@
 				</nav>
 			</div>
 			<hr>
-			<article>
-				<h2>Lorem Ipsum</h2>
-				<p id="intro">
-					<img src="index.png" alt="Asad" id="axel" style="width:500px; height:500px;" align="right"></img>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat justo in lorem tincidunt porta. Praesent non metus at risus lacinia volutpat. Ut blandit nisi eu libero euismod molestie. Nam non sem ipsum. Donec nisi nisl, pharetra ac lorem vel, luctus porttitor lorem. Nullam cursus blandit ex facilisis maximus. Vestibulum eu diam nec tellus commodo malesuada.<br>
-					Aliquam dignissim tortor id gravida dignissim. Vivamus rhoncus viverra turpis quis accumsan. Curabitur urna dolor, eleifend non felis quis, laoreet laoreet ante. Duis quam nibh, pretium quis iaculis eget, dictum sed lectus. In sagittis urna vel porttitor vestibulum. In hac habitasse platea dictumst. In vitae diam in libero viverra pellentesque. Integer convallis fringilla elit, nec ultricies justo hendrerit quis. Phasellus convallis sapien sit amet vehicula sollicitudin. Duis sodales justo nunc, eu auctor velit volutpat nec. In sed lorem et metus maximus consectetur. Vestibulum leo quam, rutrum ac sapien a, tempor lacinia tortor. Donec et porttitor enim.<br>
-					Fusce eleifend, risus in gravida consequat, nisl sem mattis lorem, et euismod sem libero sit amet arcu. Vivamus blandit fermentum tempus. Suspendisse ac molestie ante. Vestibulum luctus auctor elit id gravida. Vivamus sapien libero, mattis nec odio aliquet, blandit scelerisque mauris. Aliquam mattis fringilla nulla, vel sodales risus sagittis ac. Nunc dictum lacinia magna ut ornare. In vitae lectus et eros dictum imperdiet quis aliquam nisi. Nullam euismod elit vel efficitur rutrum. Nullam vitae mauris eros. Etiam rutrum purus at enim finibus laoreet. Quisque efficitur enim aliquet, fringilla odio eget, cursus felis.<br>
-				</p>
+			<article id="intro">
+				<img src="images/amniotique.png" alt="Amniotique" id="album" style="width:500px; height:500px;"></img>
+				<p style="line-height: 500px" id="countdown"></p>
+				<script>
+				var countDownDate = new Date("Dec 1, 2018 00:00:00").getTime();
+				var x = setInterval(function() {
+				  var now = new Date().getTime();
+				  var distance = countDownDate - now;
+
+				  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+				  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+				  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+				  document.getElementById("countdown").innerHTML = days + "j " + hours + "h "
+				  + minutes + "m " + seconds + "s ";
+				  if (distance < 0) {
+					clearInterval(x);
+					document.getElementById("countdown").innerHTML = "EXPIRED";
+				  }
+				}, 1000);
+				</script>
 			</article>
 		</div>
 		<footer>
-			<a href=https://soundcloud.com/asad-musik"><img style="width:32px;height:32px;" src="social_media/soundcloud.png" alt="soundcloud"></a>
-			<a href="https://www.youtube.com/channel/UCS48ItLnNe3gJcyW3WX9qOA"><img style="width:32px;height:32px;" src="social_media/youtube.png" alt="youtube"></a>
-			<a href="https://www.instagram.com/asad.musik/?hl=fr"><img style="width:32px;height:32px;" src="social_media/instagram.png" alt="instagram"></a>
+			<a href="https://soundcloud.com/asad-musik" target="_blank"><img style="width:32px;height:32px;" src="social_media/soundcloud.png" alt="soundcloud"></a>
+			<a href="https://www.youtube.com/channel/UCS48ItLnNe3gJcyW3WX9qOA" target="_blank"><img style="width:32px;height:32px;" src="social_media/youtube.png" alt="youtube"></a>
+			<a href="https://www.instagram.com/asad.musik/?hl=fr" target="_blank"><img style="width:32px;height:32px;" src="social_media/instagram.png" alt="instagram"></a>
 		</footer>
 	</div>
 	</body>
