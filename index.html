@@ -32,26 +32,7 @@
 			<hr> 	
 			<article id="intro">
 				<img src="images/amniotique.png" alt="Amniotique" id="album" style="width:500px; height:500px;"></img>
-				<p id="countdown"></p>
-				<script>
-				var countDownDate = new Date("Dec 1, 2018 00:00:00").getTime();
-				var x = setInterval(function() {
-				  var now = new Date().getTime();
-				  var distance = countDownDate - now;
-
-				  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-				  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-				  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-				  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-				  document.getElementById("countdown").innerHTML = days + "j " + hours + "h "
-				  + minutes + "m " + seconds + "s ";
-				  if (distance < 0) {
-					clearInterval(x);
-					document.getElementById("countdown").innerHTML = "EXPIRED";
-				  }
-				}, 1000);
-				</script>				
+				<p id="countdown">Nouvel album en vente!</p>			
 			</article>
 		</div>
 		<footer>
