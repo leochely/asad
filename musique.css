@@ -1,0 +1,47 @@
+#wrapper{
+	display: block;
+}
+
+#video_container {
+    width:auto;
+	margin-top: 30px;
+    border:2px solid #888888;
+    position:relative;
+    text-align:center;
+}
+
+#overlay {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1;
+    height:100%;
+    width:100%;
+    background:#ffffff;
+    opacity:0.6;
+    display:none;    
+	text-align:center;
+}
+
+#video {
+	color: black;
+	display:inline-block;
+	position: fixed;
+	top:50%;
+	margin-top:-157.5px; 
+	left:50%;
+	margin-left: -280px;
+	z-index:2;
+}
+
+ol{
+	padding: 0px;
+}
+
+li{
+	list-style-position: inside;
+}
+
+h2{
+	font-family: Viola;
+}
