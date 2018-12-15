@@ -5,7 +5,7 @@ html, body{
 	height: 100%;
 }
 
-#wrapper{	
+#wrapper{
 	display: none;
    min-height:100%;
    position:relative;
@@ -57,7 +57,7 @@ h1{
 
 
 nav{
-	display: inline-block;	
+	display: inline-block;
 	font-family: Viola;
 }
 
@@ -85,13 +85,13 @@ a:visited{
 @font-face {
 font-family: "Viola";
 src: url("font/viola.ttf");
-src: 
+src:
 url("font/Viola.woff") format("woff"),
 url("font/Viola.otf") format("opentype");
 }
 
 .body {
-   padding-bottom:100px;   /* Height of the footer */
+   padding-bottom:100px;  
 }
 
 
@@ -110,7 +110,7 @@ footer {
 	width: auto;
 }
 
-#countdown{
+#annonce{
 	text-align: center;
 	font-size: 5em;
 	margin: auto;
