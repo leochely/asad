@@ -35,12 +35,13 @@
 .video{
 	color: black;
 	display:inline-block;
-	position: fixed;
-	top:50%;
+	position: absolute;
+	top:30%;
 	margin-top:-157.5px;
 	left:50%;
 	margin-left: -280px;
 	z-index:2;
+	overflow: scroll;
 }
 
 
