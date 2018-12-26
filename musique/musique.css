@@ -33,8 +33,9 @@
 
 
 .video{
+	display: none;
 	color: black;
-	display:inline-block;
+	display: inline-block;
 	position: absolute;
 	top:30%;
 	margin-top:-157.5px;
