@@ -7,8 +7,8 @@ html, body{
 
 #wrapper{
 	display: none;
-   min-height:100%;
-   position:relative;
+  min-height:100%;
+  position:relative;
 }
 
 #logo_container{
@@ -34,21 +34,16 @@ html, body{
 }
 
 #header{
-	text-align: justify;
 	width: 100%;
 	height: 100px;
-}
-
- #header:after{
-    content: '';
-    display: inline-block;
-    width: 100%;
+	font-family: Viola;
 }
 
 h1{
-	margin-left: 20px;
-	font-family: Viola;
 	display: inline-block;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 10px;
 	font-size: 3em;
 	opacity: 0.7;
 	transition: opacity 1.5s ease;
@@ -57,8 +52,9 @@ h1{
 
 
 nav{
+	margin-top: 50px;
 	display: inline-block;
-	font-family: Viola;
+	float: right;
 }
 
 h1:hover{
@@ -91,7 +87,7 @@ url("font/Viola.otf") format("opentype");
 }
 
 .body {
-   padding-bottom:100px;  
+   padding-bottom:100px;
 }
 
 
