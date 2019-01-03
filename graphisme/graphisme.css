@@ -3,6 +3,10 @@
 }
 
 h2{
+	text-align: center;
+}
+
+h2, h3{
 	font-family: viola;
 }
 
@@ -10,6 +14,6 @@ article{
 	margin-bottom: 30px;
 }
 
-#logocontest img{
-	opacity: 1.5;
+#travauxart{
+	text-align: center;
 }
