@@ -9,3 +9,7 @@ h2{
 article{
 	margin-bottom: 30px;
 }
+
+#logocontest img{
+	opacity: 1.5;
+}
